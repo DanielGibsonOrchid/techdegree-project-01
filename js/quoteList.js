@@ -1,107 +1,118 @@
-//array of objects - Random Quotes with sources
+/*
+A list of random quotes I found off a random website.
+
+This is an array of objects with three properties:
+
+Quote - That actual quote.
+Source - Where the quote came from or who said the quote.
+Topic - What topic the quote is about: Motivational, life, Positive, Smile.
+*/
 
 var quotes = [
     {
-        quote: 'Fear is a place where you just tell the truth.',
-        source: 'Clive Barker',
-        year: 1992
-    },
-    {
-        quote: 'Wasted youth is better by far the a wise and productive old age.',
-        source: 'Meatloaf',
-        year: 1995
-    },
-    {
-        quote: 'Seek the truth, no matter where it lies.',
-        source: 'Metallica'
-    },
-    {
         quote: 'The foolish man think with narrow mind and speak with wide mouth.',
-        source: 'Charlie Chin'
+        source: 'Charlie Chin',
+        topic: 'Life'
     },
     {
         quote: 'There is no knowledge that is not power.',
-        source: 'Mortal Kombat 3'
+        source: 'Mortal Kombat 3',
+        topic: 'Motivational'
     },
     {
         quote: 'We\'ve got far too many hung juries and not enough hung defendants.',
-        source: 'Dennis Miller'
+        source: 'Dennis Miller',
+        topic: 'Smile'
     },
     {
         quote: 'Conservatives want live babies so they can raise them to be dead soldiers.',
-        source: 'George Carlin'
+        source: 'George Carlin',
+        topic: 'Life'
     },
     {
         quote: 'The strength of the Constitution lies entirely in the determination of each citizen to defend it.',
-        source: 'Albert Einstein'
+        source: 'Albert Einstein',
+        topic: 'Motivational'
     },
     {
         quote: 'Any plan, no matter how poorly conceived, if boldly executed, is better than inaction.',
-        source: 'U.S. Infantry Manual'
+        source: 'U.S. Infantry Manual',
+        topic: 'Positive'
     },
     {
         quote: 'Affection can no more spoil a child than the sun could be put out by a bucket of gasoline.',
-        source: 'L. Ron Hubbard'
+        source: 'L. Ron Hubbard',
+        topic: 'Smile'
     },
     {
         quote: 'A fanatic is a nut who has something to believe in.',
-        source: 'Dean Koontz'
+        source: 'Dean Koontz',
+        topic: 'Smile'
     },
     {
         quote: 'Those who make peaceful revolution impossible will make violent revolution inevitable',
-        source: 'John F. Kennedy'
+        source: 'John F. Kennedy',
+        topic: 'Life'
     },
     {
         quote: 'A tax-supported, compulsory educational system is the complete model of the totalitarian state',
-        source: 'Isabel Paterson'
+        source: 'Isabel Paterson',
+        topic: 'Life'
     },
     {
         quote: 'A person\'s a person, no matter how small.',
-        source: 'Dr. Suess'
+        source: 'Dr. Suess',
+        topic: 'Positive'
     },
     {
         quote: 'Puritanism: The haunting fear that someone, somewhere, may be happy.',
-        source: 'H. L. Mencken'
+        source: 'H. L. Mencken',
+        topic: 'Life'
     },
     {
         quote: 'Man is the only animal that blushes...or needs to.',
-        source: 'Mark Twain'
+        source: 'Mark Twain',
+        topic: 'Smile'
     },
     {
         quote: 'Common sense isn\'t all that common.',
-        source: 'Voltaire'
-    },
-    {
-        quote: 'Why is it that, as a culture, we are more comfortable seeing two men holding guns than holding hands?',
-        source: 'Ernest Gaines'
+        source: 'Voltaire',
+        topic: 'Smile'
     },
     {
         quote: 'Resist much. Obey little.',
-        source: 'Walt Whitman'
+        source: 'Walt Whitman',
+        topic: 'Life'
     },
     {
         quote: 'A patriot must always be ready to defend his country against its government.',
-        source: 'Edward Abbey'
+        source: 'Edward Abbey',
+        topic: 'Motivational'
     },
     {
         quote: 'Reporters are puppets. They simply respond to the pull of the most powerful strings.',
-        source: 'Lyndon Johnson'
+        source: 'Lyndon Johnson',
+        topic: 'Smile'
     },
     {
         quote: 'Parents can only give good advice or put them on the right paths, but the final forming of a person\'s character lies in their own hands.',
-        source: 'Anne Frank'
+        source: 'Anne Frank',
+        topic: 'Life'
     },
     {
         quote: 'Thou shalt hold nothing above reason and logic.',
-        source: 'The 1st Commandment of Lord Galen'
+        source: 'The 1st Commandment of Lord Galen',
+        topic: 'Life'
     },
     {
         quote: 'Thou shalt question everything; nothing is above challenge.',
-        source: 'The 2nd Commandment of Lord Galen'
+        source: 'The 2nd Commandment of Lord Galen',
+        topic: 'Motivational'
     },
     {
         quote: 'Age is an issue of mind over matter. If you don\'t mind, it doesn\'t matter.',
-        source: 'Mark Twain'
+        source: 'Mark Twain',
+        topic: 'Smile'
     }
 ];
 
