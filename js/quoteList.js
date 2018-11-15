@@ -1,11 +1,11 @@
 /*
-A list of random quotes I found off a random website.
+A list of random quotes
 
 This is an array of objects with three properties:
 
-Quote - That actual quote.
-Source - Where the quote came from or who said the quote.
-Topic - What topic the quote is about: Motivational, life, Positive, Smile.
+Quote - The actual quote
+Source - Where the quote came from or who said the quote
+Topic - What topic the quote is about: Motivational, life, Positive, Smile
 */
 
 var quotes = [
@@ -116,6 +116,9 @@ var quotes = [
     }
 ];
 
-/*for (var prop in quotes) {
+/*
+for (var prop in quotes) {
  console.log(prop, ': ', quotes[prop]); 
-}*/
+}
+*/
+
