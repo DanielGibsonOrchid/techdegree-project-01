@@ -1,18 +1,18 @@
 /*
 A list of random quotes
-
-This is an array of objects with three properties:
-
-Quote - The actual quote
-Source - Where the quote came from or who said the quote
-Topic - What topic the quote is about: Motivational, life, Positive, Smile
+This is an array of objects with four properties:
+- Quote - The actual quote
+- Source - Where the quote came from or who said the quote
+- Topic - What topic the quote is about: Motivational, life, Positive, Smile
+- Year - What year the quote was came from
 */
 
 var quotes = [
     {
         quote: 'The foolish man think with narrow mind and speak with wide mouth.',
         source: 'Charlie Chin',
-        topic: 'Life'
+        topic: 'Life',
+        year: 1885
     },
     {
         quote: 'There is no knowledge that is not power.',
@@ -27,7 +27,8 @@ var quotes = [
     {
         quote: 'Conservatives want live babies so they can raise them to be dead soldiers.',
         source: 'George Carlin',
-        topic: 'Life'
+        topic: 'Life',
+        year: 2003
     },
     {
         quote: 'The strength of the Constitution lies entirely in the determination of each citizen to defend it.',
@@ -47,7 +48,8 @@ var quotes = [
     {
         quote: 'A fanatic is a nut who has something to believe in.',
         source: 'Dean Koontz',
-        topic: 'Smile'
+        topic: 'Smile',
+        year: 2007
     },
     {
         quote: 'Those who make peaceful revolution impossible will make violent revolution inevitable',
@@ -67,7 +69,8 @@ var quotes = [
     {
         quote: 'Puritanism: The haunting fear that someone, somewhere, may be happy.',
         source: 'H. L. Mencken',
-        topic: 'Life'
+        topic: 'Life',
+        year: 1992
     },
     {
         quote: 'Man is the only animal that blushes...or needs to.',
@@ -82,7 +85,8 @@ var quotes = [
     {
         quote: 'Resist much. Obey little.',
         source: 'Walt Whitman',
-        topic: 'Life'
+        topic: 'Life',
+        year: 2001
     },
     {
         quote: 'A patriot must always be ready to defend his country against its government.',
@@ -102,7 +106,8 @@ var quotes = [
     {
         quote: 'Thou shalt hold nothing above reason and logic.',
         source: 'The 1st Commandment of Lord Galen',
-        topic: 'Life'
+        topic: 'Life',
+        year: 2017
     },
     {
         quote: 'Thou shalt question everything; nothing is above challenge.',
@@ -115,10 +120,3 @@ var quotes = [
         topic: 'Smile'
     }
 ];
-
-/*
-for (var prop in quotes) {
- console.log(prop, ': ', quotes[prop]); 
-}
-*/
-
