@@ -7,6 +7,7 @@ function getRandomQuote(array){
 	return array[randomNumber];
 }
 
+
 /*
 Function that prints a random quote to the HTML page:
 1- Calls getRandomQuote function using the 'quotes' array and stores it in variable 'holdQuote'
