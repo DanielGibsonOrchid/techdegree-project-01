@@ -4,7 +4,7 @@ This is an array of objects with four properties:
 - Quote - The actual quote
 - Source - Where the quote came from or who said the quote
 - Topic - What topic the quote is about: Motivational, life, Positive, Smile
-- Year - What year the quote was came from
+- Year - What year the quote came from
 */
 
 var quotes = [

@@ -42,8 +42,8 @@ function printQuote (){
 //Calls the 'printQuote' function
 printQuote();
 
-// Call 'printQuote' function after 10 seconds
-setInterval('printQuote()', 10000);
+// Call 'printQuote' function after 20 seconds
+setInterval('printQuote()', 20000);
 
 //Button 'loadQuote' when clicked to call function 'printQuote'
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
