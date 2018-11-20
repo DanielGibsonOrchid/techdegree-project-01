@@ -28,7 +28,13 @@ function printQuote (){
 	string += '</p>'
 	document.getElementById('quote-box').innerHTML = string;
 
-	//random colour generator to change the background color everytime 'printQuote' function is called
+	/*
+	Random colour generator to change the background color everytime 'printQuote' function is called
+	1- Function generators a random number between 0 and 256
+	2- Assigns the random number from the function to three variables
+	3- Combines those three variables into one variable which equals a random colour
+	4- Changes the background colour to a random colour from the "rColour" variable
+	*/
 	function randomColour() {
     return Math.floor(Math.random() * 256);
 	}
